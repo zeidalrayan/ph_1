@@ -28,11 +28,11 @@ const Home = () => {
       ) : (
         <main className=" p-10">
           <h2 className=" text-center font-bold text-3xl mb-8">
-            Berita paling baru
+            Berita hari ini {dayName}-{date}-{monthName}-{year}
           </h2>
           <Carrousel />
           <h2 className=" text-center text-2xl font-bold ">
-            Berita hari ini {dayName}-{date}-{monthName}-{year}
+            Berita paling home
           </h2>
           <div className=" grid grid-cols-3 max-lg:grid-cols-2 max-md:grid-cols-1 my-5 gap-5">
             {berita.slice(0, cberita).map((news, index) => (
