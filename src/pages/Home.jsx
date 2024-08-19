@@ -32,7 +32,7 @@ const Home = () => {
           </h2>
           <Carrousel />
           <h2 className=" text-center text-2xl font-bold ">
-            Berita paling home
+            Berita paling baru
           </h2>
           <div className=" grid grid-cols-3 max-lg:grid-cols-2 max-md:grid-cols-1 my-5 gap-5">
             {berita.slice(0, cberita).map((news, index) => (
